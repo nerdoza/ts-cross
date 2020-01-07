@@ -1,0 +1,34 @@
+{
+  "appId": "template.app",
+  "productName": "Template App",
+  "artifactName": "TemplateApp.${version}.${ext}",
+  "copyright": "",
+  "buildDependenciesFromSource": true,
+  "files": [
+    "**/*"
+  ],
+  "win": {
+    "icon": "icon.ico",
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64",
+          "ia32"
+        ]
+      }
+    ],
+    "rfc3161TimeStampServer": "http://timestamp.entrust.net/TSS/RFC3161sha2TS"
+  },
+  "nsis": {
+    "oneClick": true,
+    "perMachine": true,
+    "runAfterFinish": true,
+    "deleteAppDataOnUninstall": true,
+    "shortcutName": "Template App",
+    "createDesktopShortcut": true,
+    "menuCategory": "Template",
+    "warningsAsErrors": false,
+    "differentialPackage": false
+  }
+}
