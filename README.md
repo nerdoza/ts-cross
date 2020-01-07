@@ -1,6 +1,6 @@
 # TypeScript Cross-Platform Boilerplate
 
-This is a boilerplate which can build to Android, iOS, Windows, Mac, and Web by utilizing [WebPack](https://webpack.js.org/), [Cordova](https://cordova.apache.org/), and [Electron](https://electronjs.org/).
+This is a boilerplate which can build to **Android**, **iOS**, **Windows**, **Mac**, and **Web** by utilizing [WebPack](https://webpack.js.org/), [Cordova](https://cordova.apache.org/), and [Electron](https://electronjs.org/).
 
 There are 4 folders under the `src` directory corresponding to the 3 platforms (`cordova`, `electron`, `web`) as well as a single `app` directory.  The platform directories are meant to house your platform specific code such as any initializers or overrides specific to the platform. The app directory holds the common application code (hopefully most of your code).
 
@@ -42,4 +42,4 @@ npm run android:dev
 This boilerplate is very simple and is intended to inspire and developers. The `webpack.js` file is where most of the *"magic"* happens and it is also the most difficult to understand part of this project. I have contemplated splitting it to make it easier to digest and have thus far not taken on this task. I am open to **Pull Requests** and will do my best to resolve **Issues**, but I make no guarantees. Thank you for taking a look. Leave a star if you have been inspired or referenced this project!
 
 ## Copyright and License
-Copyright Zachary Cardoza under the MIT license.
+Copyright 2020 Zachary Cardoza under the MIT license.
