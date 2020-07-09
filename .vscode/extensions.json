@@ -1,7 +1,10 @@
 {
   "recommendations": [
-    "chenxsan.vscode-standardjs",
-    "prograhammer.tslint-vue",
-    "octref.vetur"
+    "coenraads.bracket-pair-colorizer-2",
+    "streetsidesoftware.code-spell-checker",
+    "eg2.vscode-npm-script",
+    "pflannery.vscode-versionlens",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode-remote.vscode-remote-extensionpack"
   ]
 }

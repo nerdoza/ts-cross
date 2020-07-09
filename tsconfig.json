@@ -1,14 +1,9 @@
 {
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.vue",
-    "types/**/*.ts"
-  ],
   "exclude": [
     "node_modules"
   ],
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2018",
     "module": "esnext",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -24,8 +19,9 @@
       "./node_modules/@types"
     ],
     "lib": [
-      "dom",
-      "es7"
+      "esnext",
+      "esnext.asynciterable",
+      "dom"
     ],
     "baseUrl": ".",
     "paths": {

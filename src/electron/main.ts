@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 function createWindow () {
-  let mainWindow = new BrowserWindow({
+  const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
     webPreferences: {
@@ -17,7 +17,7 @@ function createWindow () {
     }
   })
 
-  const windowURL = process.env.ELECTRON_RENDERER_URL || 'file://index.html'
+  const windowURL = process.env.ELECTRON_RENDERER_URL ?? 'file://index.html'
   void mainWindow.loadURL(windowURL)
 }
 

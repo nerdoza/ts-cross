@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.vue"
+      ],
+      "env": {
+        "browser": true,
+        "es2020": true
+      },
+      "extends": [
+        "standard-with-typescript",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:vue/essential"
+      ],
+      "parser": "vue-eslint-parser",
+      "parserOptions": {
+        "ecmaVersion": 11,
+        "parser": "@typescript-eslint/parser",
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+      },
+      "plugins": [
+        "vue",
+        "@typescript-eslint"
+      ],
+      "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-extraneous-class": "off",
+        "no-void": [
+          "error",
+          {
+            "allowAsStatement": true
+          }
+        ]
+      }
+    }
+  ]
+}
