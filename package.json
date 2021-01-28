@@ -46,7 +46,7 @@
     "csp-html-webpack-plugin": "^4.0.0",
     "css-loader": "^3.6.0",
     "dts-bundle": "^0.7.3",
-    "electron": "^9.1.0",
+    "electron": "^9.4.0",
     "electron-builder": "^22.7.0",
     "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
